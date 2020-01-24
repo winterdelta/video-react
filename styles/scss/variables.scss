@@ -2,14 +2,16 @@
 $video-react-primary-foreground-color: #fff !default;
 
 // Control backgrounds (control bar, big play, menus)
-$video-react-primary-background-color: #2B333F !default;
+$video-react-primary-background-color: #BAABAB !default;
 $video-react-primary-background-transparency: 0.7 !default;
 
 // Hover states, slider backgrounds
 $video-react-secondary-background-color: lighten($video-react-primary-background-color, 33%) !default;
 $video-react-secondary-background-transparency: 0.5 !default;
 
-$video-react-text-font-family: serif, Times, "Times New Roman" !default;
+$video-react-text-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif; !default;
 
 $video-react-big-play-button-width: 3em !default;
 $video-react-big-play-button-height: 1.5em !default;
